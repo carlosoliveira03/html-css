@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+@font-face {
+    font-family:'Comic';
+    src: url('Hey Comic.otf') format('opentype'), url('Hey Comic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    /*  
+    Tipos de format()
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-aat (Apple Advanced Typography)
+    - svg
+    */
+}
+    
+body {
+    font-family: 'Comic', 'Times';
+
+}
+h1 {
+font-family: 'Comic', 'Times';
+font-weight: 100;
+
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p#opa {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum itaque iste perspiciatis eum in voluptas nam? Nobis odio quibusdam at reprehenderit tenetur tempore eius iure accusamus facilis aliquam, sed numquam!</p>
+    <h2>Titulo 2</h2>
+    <p id="opa">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste libero soluta beatae. Aliquam perspiciatis assumenda ratione quasi alias est, enim facilis hic vero, voluptatum dolor excepturi quos sint. Id, quidem.</p>
+    
+</body>
+</html>
